@@ -1,4 +1,4 @@
-{% set version = "0.0-4" %}
+{% set version = "0.0-5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/dfidx_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/dfidx/dfidx_{{ version }}.tar.gz
-  sha256: 04255de9b002b2f89db04144edcd72e21804e0c129a3e5082b4a21630c850702
+  sha256: 37521940b35d62773a4d127c94148aadf207f400a686f2212a22d96e53086a0a
 
 build:
   merge_build_host: true  # [win]
