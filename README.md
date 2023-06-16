@@ -1,11 +1,11 @@
-About r-dfidx
-=============
+About r-dfidx-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-dfidx-feedstock/blob/main/LICENSE.txt)
 
 Home: https://cran.r-project.org/package=dfidx
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-dfidx-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides extended data frames, with a special data frame column which contains two indexes, with potentially a nesting structure.
 
