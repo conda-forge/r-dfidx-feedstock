@@ -24,11 +24,21 @@ requirements:
   host:
     - r-base
     - r-formula
+    - r-rdpack
     - r-dplyr
+    - r-glue
+    - r-pillar
+    - r-tidyselect
+    - r-vctrs
   run:
     - r-base
     - r-formula
+    - r-rdpack
     - r-dplyr
+    - r-glue
+    - r-pillar
+    - r-tidyselect
+    - r-vctrs
 
 test:
   commands:
