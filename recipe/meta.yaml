@@ -1,4 +1,4 @@
-{% set version = "0.0-5" %}
+{% set version = "0.1-0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/dfidx_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/dfidx/dfidx_{{ version }}.tar.gz
-  sha256: 37521940b35d62773a4d127c94148aadf207f400a686f2212a22d96e53086a0a
+  sha256: 2ddd363301000b8e707ff3dd18daa5cf31df49e909ac42dae1428b0d7ee0eb79
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -24,11 +24,21 @@ requirements:
   host:
     - r-base
     - r-formula
+    - r-rdpack
     - r-dplyr
+    - r-glue
+    - r-pillar
+    - r-tidyselect
+    - r-vctrs
   run:
     - r-base
     - r-formula
+    - r-rdpack
     - r-dplyr
+    - r-glue
+    - r-pillar
+    - r-tidyselect
+    - r-vctrs
 
 test:
   commands:
