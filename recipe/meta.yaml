@@ -1,4 +1,4 @@
-{% set version = "0.1-1" %}
+{% set version = "0.1-2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/dfidx_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/dfidx/dfidx_{{ version }}.tar.gz
-  sha256: 3b77a292644d1cb9b75f478782b070648b88fd515d4bc0e1dd860f8fbe93e306
+  sha256: 9d2aa7869df3278b7df4df35720aa657e5ca19b5b87b7502cd9c5b86bbd7b1a4
 
 build:
   number: 0
